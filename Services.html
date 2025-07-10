@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    nav.navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0f0f0f;
+      padding: 20px 50px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links li a {
+      color: #f4f0e6;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      color: #ffddaa;
+    }
+
+    .btn-talk {
+      background-color: #f4f0e6;
+      color: #0f0f0f;
+      padding: 10px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btn-talk:hover {
+      background-color: #ffddaa;
+      color: #000;
+    }
+
+    header {
+      text-align: center;
+      margin: 60px auto 30px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ffddaa;
+    }
+
+    .services-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 80px;
+    }
+
+    .service-card {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .service-card h3 {
+      color: #f4f0e6;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      color: #cccccc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <a href="letstalk.html" class="btn-talk">Let's Talk</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Our Services</h1>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services-container">
+    <div class="service-card">
+      <h3>Web Design</h3>
+      <p>Modern, responsive websites tailored to your brand and users.</p>
+    </div>
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>Engaging interfaces with a seamless user experience.</p>
+    </div>
+    <div class="service-card">
+      <h3>SEO Optimization</h3>
+      <p>Boost your search visibility and drive traffic to your site.</p>
+    </div>
+    <div class="service-card">
+      <h3>Custom Development</h3>
+      <p>From simple landing pages to full-scale web apps.</p>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Services</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+    }
+
+    .navbar {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar li a {
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .highlight-btn {
+      background-color: #f5f0e9;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .highlight-btn:hover {
+      background-color: #ddd4c3;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px 50px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #bbb;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 50px 20px;
+    }
+
+    .service-card {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h2 {
+      color: #f5f5f5;
+      margin-bottom: 15px;
+    }
+
+    .service-card p {
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="myservices.html" class="btn">My Services</a></li>
+      <li><a href="contact.html" class="btn">Let's Talk</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <h1>What I Offer</h1>
+    <p>I specialize in building smart virtual assistants using Python and crafting elegant, modern websites that deliver great user experience and performance.</p>
+  </section>
+
+  <section class="services">
+    <div class="service-card">
+      <h2>Virtual Assistant</h2>
+      <p>I develop intelligent virtual assistants using Python that can recognize speech, respond with natural voices, and perform custom tasks like answering questions, telling the time, and more.</p>
+    </div>
+    <div class="service-card">
+      <h2>Website Design</h2>
+      <p>I design clean, modern, and responsive websites tailored for personal portfolios, businesses, and product showcases — all focused on great UI/UX and speed.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Mith13sh. All rights reserved.
+  </footer>
+
+</body>
+</html>
